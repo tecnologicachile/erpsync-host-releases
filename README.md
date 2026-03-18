@@ -84,11 +84,22 @@ Desde una terminal con permisos de administrador:
 Si se dispone de un codigo de activacion:
 
 1. Ir a la seccion **Servidor Central** en el panel
-2. Ingresar el codigo de activacion proporcionado
-3. Aceptar el acuerdo de servicio
-4. Activar la conexion
+2. Activar **Permitir acceso remoto de soporte**
+3. Completar los siguientes campos:
 
-Esto permite recibir soporte remoto y actualizaciones automaticas.
+| Campo | Descripcion |
+|-------|-------------|
+| URL del Servidor Central | Proporcionada por soporte |
+| ID del Cliente | Nombre corto que identifique la empresa (ej: `rapanui`, `mitienda`) |
+| Codigo de Activacion | Formato `ERPSYNC-XXXX-XXXX-XXXX`, proporcionado por soporte |
+| Nombre de la Empresa | Razon social o nombre comercial |
+| Ubicacion | Sucursal o ubicacion del servidor |
+| Email de Contacto | Email del responsable tecnico |
+
+4. Leer y aceptar el **acuerdo de soporte remoto**
+5. Clic en **Guardar Configuracion**
+
+Una vez conectado, el equipo de soporte procedera con la activacion en la consola de licenciamiento.
 
 ## Actualizaciones
 
